@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html> 
+    <header>
+            <link rel="stylesheet" type="text/css" href="design.css">
+
+        <style>
+        .location-design {
+            font-size: 20px; 
+            font-family: helvetica;
+            font-weight: bold;
+            border-bottom: 2px dotted rgb(213, 213, 213);
+
+        }
+
+        .phone-number {
+            font-size: 15px;
+            color: grey; 
+        }
+        .bold {
+          font-weight: bold;
+          }
+        
+        </style> 
+        <title> Krakow Cafe </title> 
+        <h1> <img src="img/logo.png"> </h1> 
+       <hr> 
+       <a href= "index.html"> Home </a> 
+       <a href= "menu.html"> Menu </a> 
+       <a href= "contactus.html"> Contact Us </a> 
+       <hr> 
+    </header> 
+    <form action="fakePage.html" method="POST"> 
+    
+  <label>
+    <div class = "bold">
+    Name: </div> 
+    <input type="name" name="myNameInput" /> </br> 
+    
+  </label>
+    
+  <label>
+     <div class = "bold">
+    Email: 
+    </div> 
+    <input type="email" name="myEmailInput" /> </br> 
+  </label>
+
+   <label>
+     <div class = "bold">
+    Phone: 
+     </div> 
+    <input type="phone" name="myPhoneInput" /> </br> 
+   </label>
+    
+   <label>
+      <div class = "bold">
+    Reason for Inquiry: 
+      </div> 
+    <select name="Items in drop-down">
+      <option value="Value1">Catering</option>
+      <option value="Value2">Private Party</option>
+      <option value="Value3">Feedback</option>
+      <option value="Value3">Other</option>
+    </select> </br> 
+    </label>
+    
+    <label>
+    <div class = "bold">
+    Additional Information: 
+    </div> 
+    <textarea name="briefDescription"></textarea><br/>
+    </label>
+    
+    <label>
+    <div class = "bold">
+    Have you been to the restaurant?
+        </div>
+    <input type="radio" name="answer" value="Yes" checked/>Yes
+    <input type="radio" name="answer" value="No"/>No<br/>
+    </label> 
+
+    <label>
+
+        <div class = "bold">
+    Best days to contact you: 
+        </div> 
+    <input type="checkbox" name="myChoices" value="Monday" />M
+    <input type="checkbox" name="myChoices" value="Tuesday" />T
+    <input type="checkbox" name="myChoices" value="Wednesday" />W
+    <input type="checkbox" name="myChoices" value="Thursday" />Th
+    <input type="checkbox" name="myChoices" value="Friday" />F<br/>
+    </label>
+    </form>
+
+    <hr> 
+    <footer> 
+            <div class = "location-design">  
+              Kosovo Street. Detroit, Michigan. 48127. 
+            </div>
+
+            <div class = "phone-number"> 
+              313-892-4829 
+            </div> 
+           </footer> 
+    </html> 
